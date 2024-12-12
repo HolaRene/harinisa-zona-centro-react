@@ -1,0 +1,69 @@
+/* Contacto */
+.contacto {
+  color: #333;
+  padding: 3rem 0;
+}
+
+.contacto h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: #fbf8f8;
+  font-family: 'Oswald', serif;
+}
+.contacto img {
+  border-radius: 20%;
+}
+.contacto .lead {
+  font-size: 1.2rem;
+  padding: 15px;
+  font-weight: 300;
+  color: #fffdfd;
+
+  border-radius: 9px;
+}
+
+.contacto .btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: #fff;
+}
+
+.contacto .btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.contacto .btn-success {
+  background-color: #28a745;
+  border-color: #28a745;
+  color: #fff;
+}
+
+.contacto .btn-success:hover {
+  background-color: #1e7e34;
+  border-color: #1c7430;
+}
+/* Estilos generales para los iconos */
+.iconos-redes-sociales .red-social {
+  font-size: 1.9rem;
+  color: #090de6;
+  transition: color 0.3s ease;
+  text-decoration: none; /* Evita subrayado */
+}
+
+.iconos-redes-sociales .red-social i {
+  margin: 0 1rem; /* Espaciado a los lados */
+}
+.img-fluid {
+  border-radius: 30%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* Efecto hover */
+.iconos-redes-sociales .red-social:hover {
+  color: #301c04;
+}
+
+.iconos-redes-sociales .red-social:hover i {
+  color: #030c15; /* Efecto de hover específico para el icono */
+}

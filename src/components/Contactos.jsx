@@ -12,7 +12,7 @@ function Contactos() {
           <div className='row justify-content-center align-items-center'>
             <div className='col-12 col-md-4 text-center mb-4'>
               <img
-                src='logo/Don-agustin1.jpg'
+                src='logo/don-Agustin.jpg'
                 alt='Foto del Ejecutivo de Ventas'
                 className='img-fluid'
                 width={250}

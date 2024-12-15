@@ -8,18 +8,22 @@
   align-items: center;
   justify-content: flex-end;
   margin-bottom: 20px;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
 }
 .headerc h2 {
   margin-bottom: 10px;
-  color: #ffffff;
+  color: #fdfdfd;
 }
 .headerc p {
   margin-bottom: 10px;
   color: #ffffff;
   width: 90%;
-  font-size: 20px;
+  font-size: 22px;
 }
+.inic {
+  text-align: center;
+}
+
 .btn {
   cursor: pointer;
   display: inline-block;
@@ -34,4 +38,33 @@
 .btn:hover {
   opacity: 0.6;
   color: #ffffff;
+}
+/* MEDIA QUERIES */
+
+/* Tamaño para móviles (hasta 576px) */
+@media (max-width: 576px) {
+  .headerc {
+    padding: 1rem;
+    margin: 0;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .btn.end {
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+  }
+  .headerc p {
+    font-family: 'Noto Sans', Times, serif;
+    border: 0;
+    padding: 10px;
+    font-size: 19px;
+    border-radius: 4px;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.5);
+    /* Semi opaco (grey con opacidad) */
+    color: #ffffff; /* Texto blanco para mayor contraste */
+  }
 }

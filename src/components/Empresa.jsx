@@ -6,27 +6,29 @@ function Empresa() {
       {/* Sección Quiénes Somos */}
       <div className='head'>
         <header className='headercase'>
-          <h2>!Empresa Harinisa!</h2>
+          <h2 className='title'>¡Empresa Harinisa!</h2>
           <p className='parrafosEmp'>
-            ¿QUIENES SOMOS? Harinera Agroindustrial de Nicaragua HARINISA, es
-            una empresa nicaragüense de capital privado, con mas de cuatro
-            décadas en el mercado que se dedica a la produccion y
-            comercializaciån de Harinas de Trigo, materia prima båsica para la
-            elaboraciön de pan.
+            <strong>¿Quiénes Somos?</strong> <br />
+            Harinera Agroindustrial de Nicaragua (HARINISA) es una empresa
+            nicaragüense de capital privado con más de cuatro décadas en el
+            mercado. Nos dedicamos a la producción y comercialización de harinas
+            de trigo, materia prima esencial para la elaboración de pan.
           </p>
           <p className='parrafosEmp'>
-            NUESTRA MISION Elaborar productos alimenticios de alta calidad y
-            rendimiento, manteniendo excelencia en el servicio, buenas
-            relaciones con nuestros clientes, proveedores y colaboradores y
-            respeto por el medio ambiente
+            <strong>Nuestra Misión</strong> <br />
+            Elaborar productos alimenticios de alta calidad y rendimiento,
+            manteniendo la excelencia en el servicio, buenas relaciones con
+            nuestros clientes, proveedores y colaboradores, y un firme respeto
+            por el medio ambiente.
           </p>
           <p className='parrafosEmp'>
-            NUESTRA VISION Ser reconocidos como una empresa lider en la
-            elaboracion y comercializacion de nuestros productos, manteniendo
-            clientes y consumidores satisfechos y fieles a nuestras marcas.
+            <strong>Nuestra Visión</strong> <br />
+            Ser reconocidos como una empresa líder en la elaboración y
+            comercialización de harinas, asegurando la satisfacción y fidelidad
+            de nuestros clientes y consumidores hacia nuestras marcas.
           </p>
           <Link
-            className='btn end'
+            className='btn btn-primary end'
             target='_blank'
             to='https://www.agrosa.com.ni'
           >
@@ -38,14 +40,14 @@ function Empresa() {
         <section className='py-2 escu'>
           <div className='container'>
             <img src='/escuela.jpg' alt='escuela de pani' className='pani' />
-            <p>
+            <p className='escuelP'>
               Harinisa como responsabilidad social empresarial, a partir del año
               2015 apertura 2 centros de capacitación, conociendo la necesidad
               que carece este gremio en temas de capacitación lo cual ha tenido
               aceptación en el sector, siendo HARINISA hasta ahora la pionera de
               esta idea innovadora, los programas son 100% gratis.
             </p>
-            <p>
+            <p className='escuelP'>
               Harinisa ha venido desarrollando el programa de escuela de
               panificación, este programa nos ha permitido transferir
               conocimientos a panaderos empíricos de diferentes segmentos: desde

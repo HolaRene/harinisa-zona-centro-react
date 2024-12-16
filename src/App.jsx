@@ -5,7 +5,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Empresa from './components/Empresa'
 import ScrollButons from './ScrollButtons'
-
+import Footer from './components/Footer'
 function App() {
   return (
     <BrowserRouter>
@@ -17,6 +17,7 @@ function App() {
         <Route path='/products' element={<Productos />} />
       </Routes>
       <ScrollButons />
+      <Footer />
     </BrowserRouter>
   )
 }

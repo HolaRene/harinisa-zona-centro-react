@@ -54,7 +54,7 @@ function Home() {
 
       {/* Información de atención */}
       <section className='atencion'>
-        <h3 className='text-center mt-5'>Lugares donde atendemos</h3>
+        <h3 className='text-center mt-5'>Lugares donde atendemos:</h3>
         <ul className='text-center'>
           <li>
             <i className='bi bi-geo-alt-fill text-danger' /> Boaco
@@ -69,7 +69,7 @@ function Home() {
       </section>
 
       {/* Botón para ir a productos */}
-      <div className='text-center mt-4'>
+      <div className='text-center mt-4 mb-2'>
         <Link className='btn btn-primary end' to='/products'>
           Ver los productos <i className='bi bi-arrow-right-circle' />
         </Link>

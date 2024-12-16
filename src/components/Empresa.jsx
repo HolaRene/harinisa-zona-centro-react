@@ -5,7 +5,7 @@ function Empresa() {
     <>
       {/* Sección Quiénes Somos */}
       <div className='head'>
-        <header className='headercase'>
+        <header className='headercase text-light'>
           <h2 className='title'>¡Empresa Harinisa!</h2>
           <p className='parrafosEmp'>
             <strong>¿Quiénes Somos?</strong> <br />
@@ -38,7 +38,7 @@ function Empresa() {
         <hr />
         {/* Escuela de Panificación */}
         <section className='py-2 escu'>
-          <div className='container'>
+          <div className='container fondoEsc'>
             <img src='/escuela.jpg' alt='escuela de pani' className='pani' />
             <p className='escuelP'>
               Harinisa como responsabilidad social empresarial, a partir del año

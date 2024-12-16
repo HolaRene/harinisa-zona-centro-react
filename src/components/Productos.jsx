@@ -6,50 +6,50 @@ export default function Productos() {
     {
       id: 1,
       name: 'Ricarina Multiuso',
-      img: './productos/ricarina100lb.jpg',
-      desc: 'Ricarina es la eleccion perfecta para la elaboraci6n de bolleria y panes comerciales.Con su calidad superior, garantiza resultados consistentes y deliciosos en todas tus recetas',
+      img: './productos/ricarina-multiusos100lbs.jpg',
+      desc: 'Ricarina es la elección perfecta para la elaboración de bollería y panes comerciales. Con su calidad superior, garantiza resultados consistentes y deliciosos en todas tus recetas.',
     },
     {
       id: 2,
       name: 'Harina Integral',
-      img: './productos/superstar-multi.jpg',
-      desc: 'Ricarina es la eleccion perfecta para la elaboracion de bolleria y panes comerciales. Con su calidad superior, garantiza resultados consistentes ydeliciosos en todas tus recetas',
+      img: './productos/superstar-multiproposito.jpg',
+      desc: 'La harina integral es ideal para la elaboración de bollería y panes nutritivos. Con su calidad superior, garantiza resultados consistentes y deliciosos en cada preparación.',
     },
     {
       id: 3,
       name: 'Harina de Avena',
-      img: './productos/prima-harina.jpg',
-      desc: 'Esta harina de textura suave, es ideal para la elaboraciön de batidos, bizcochos y galleteria, Con ella, te garantizamos los mejores resultados en sabor y en calidad.',
+      img: './productos/prima-harina100lbs.jpg',
+      desc: 'Esta harina de textura suave es ideal para la elaboración de batidos, bizcochos y galletas. Garantiza los mejores resultados en sabor y calidad.',
     },
     {
       id: 4,
       name: 'Harina Integral',
-      img: './productos/superstar-integral.jpg',
-      desc: 'Esta harina estå cuidadosamente formulada para la de una amplia gama de de pasteleria y reposterfa integral. Su composiciön unica permite que los ingredientes se integren de manera uniforme. asegurando una censistencia perfecta en cada reparaciOn.',
+      img: './productos/superstar-integral1.jpg',
+      desc: 'Esta harina está cuidadosamente formulada para la preparación de una amplia gama de productos de pastelería y repostería integral. Su composición única permite que los ingredientes se integren de manera uniforme, asegurando una consistencia perfecta en cada preparación.',
     },
     {
       id: 5,
-      name: 'Superstar Especial pizza',
-      img: './productos/superstar-especial-pizza.jpg',
-      desc: 'Esta harina especial estå formulada especificamente para la elaboraciOn de masas de pizzeria. proporcionando la base perfecta para una variedad de productos deliciosos. Ideal para preparar pizzas auténticas con una corteza crujiente y un suave, esta harina también es perfecta para calzones sabrosos, focaccias aromåticas y mucho mås.',
+      name: 'Superstar Especial Pizza',
+      img: './productos/superstar-pizza.jpg',
+      desc: 'Esta harina especial está formulada específicamente para la elaboración de masas de pizza, proporcionando la base perfecta para una variedad de productos deliciosos. Ideal para preparar pizzas auténticas con una corteza crujiente y suave, también es perfecta para calzones, focaccias aromáticas y más.',
     },
     {
       id: 6,
       name: 'Prima Harina 1lb',
-      img: './productos/prima-harina1l.jpg',
-      desc: 'Esta harina es perfecta para tus necesidades domésticas: para empanizar, churros, manuelitas donas, galletas comerciales y mås.',
+      img: './productos/prima-harina1lbs.jpg',
+      desc: 'Esta harina es perfecta para tus necesidades domésticas: empanizar, preparar churros, manuelas, donas, galletas comerciales y mucho más.',
     },
     {
       id: 7,
-      name: 'Prima Harina 1lb',
-      img: './productos/instaferm.jpg',
-      desc: 'La levadura Instaferm@ es un producto de alta calidad con funciOn dual que perrn.tte el la masa independientemente del clima. diseöada para utilizarse tanto en la preparaObn de mans dukes corno saladas Su formulaciOn ervriquecida con Vitamina O no solo mejora el valor nutritional de los prowactos_ Sino que también asequra rentfirniento Optima en cada uso,',
+      name: 'Instaferm Levadura',
+      img: './productos/instafern.jpg',
+      desc: 'La levadura Instaferm® es un producto de alta calidad con función dual que permite una fermentación eficiente independientemente del clima. Diseñada para utilizarse tanto en la preparación de masas dulces como saladas. Su formulación enriquecida con Vitamina D no solo mejora el valor nutricional de los productos, sino que también asegura un rendimiento óptimo en cada uso.',
     },
     {
       id: 8,
-      name: 'Doral mantequilla',
-      img: './productos/doral.jpg',
-      desc: 'La levadura Instaferm@ es un producto de alta calidad con funciOn dual que perrn.tte el la masa independientemente del clima. diseöada para utilizarse tanto en la preparaObn de mans dukes corno saladas Su formulaciOn ervriquecida con Vitamina O no solo mejora el valor nutritional de los prowactos_ Sino que también asequra rentfirniento Optima en cada uso,',
+      name: 'Doral Mantequilla',
+      img: './productos/doral1.jpg',
+      desc: 'DORAL MANTEQUILLA 1X24LBS. La manteca hidrogenada Doral sabor mantequilla combina la estabilidad y versatilidad de la manteca hidrogenada con el delicioso y auténtico sabor de la mantequilla. Perfecta para aquellos que buscan añadir un toque extra de sabor a sus productos. Su rica y cremosa textura aporta un sabor inigualable que resalta en cualquier receta.  DORAL SIMPLE 1X24LBS.  La manteca hidrogenada Doral en su versión sabor natural es un ingrediente esencial para la elaboración de una amplia variedad de productos de panadería y repostería. Esta manteca ofrece una excelente textura y estabilidad, asegurando resultados consistentes y de alta calidad. ',
     },
   ]
 
@@ -70,7 +70,7 @@ export default function Productos() {
                 <p className='card-text product-desc'>{product.desc}</p>
               </div>
               <div className='card-footer text-center'>
-                <Link to='/contact' className='btn btn-primary'>
+                <Link to='/about' className='btn btn-primary'>
                   Ver más <i className='bi bi-arrow-right-circle' />
                 </Link>
               </div>

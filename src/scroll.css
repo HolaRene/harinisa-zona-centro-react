@@ -1,0 +1,20 @@
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #007bff; /* Color azul */
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  z-index: 1000; /* Asegura que el botón esté siempre visible */
+}
+
+.scroll-to-top:hover {
+  background-color: #0056b3;
+  transform: scale(1.1); /* Efecto de crecimiento */
+}

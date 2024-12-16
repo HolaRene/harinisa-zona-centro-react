@@ -6,7 +6,7 @@ function Footer() {
         <div className='row'>
           {/* Sección de información de contacto */}
           <div className='col-md-4 mb-3'>
-            <h5>Contactome:</h5>
+            <h5>Contáctame:</h5>
             <ul className='list-unstyled'>
               <li>
                 <i className='bi bi-envelope-fill text-warning' />{' '}
